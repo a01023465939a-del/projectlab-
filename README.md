@@ -113,7 +113,7 @@ you are and what it needs:
  *  USES     : READ_BIT, SET_BIT, CLR_BIT, tempC(), BIT_AUTO, ...
  *  CHECK    : do it together with [ 4 / 6 ], then press 5 twice.
  * ==========================================================================
-```
+``` 
 
 - **REQUIRES** — what must already work before this one can. Respect it and
   you never get stuck.
