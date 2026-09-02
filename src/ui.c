@@ -441,7 +441,7 @@ void runAutomation(void)
 
     statusSet(C_OK, "%u room(s) changed.", changed);
     render(-1);
-    for (uint8_t i = 0U; i < ROOM_COUNT; ++i) {
+    for (uint8_t i = 0U ; i < ROOM_COUNT; ++i) {
         printf("  %s\n", trace[i]);
     }
     printf("\n  %u room(s) changed.\n", changed);
