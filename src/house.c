@@ -74,7 +74,7 @@ void houseInit( void )
 {
     static const char *const NAMES[ ROOM_COUNT ] =
         { " Living ", " Kitchen ", " Bedroom ", " Bathroom ", " Hall ", " Garage " };
-    static const uint16_t SEED_ADC[ ROOM_COUNT ] = { 51U, 64U, 45U, 58U, 49U, 96U };
+    static const uint16_t SEED_ADC[ ROOM_COUNT ] = { 5U, 6U, 7U, 8U, 9U, 10U };
     static const uint8_t  SEED_OCC[ ROOM_COUNT ] = { 1U, 0U, 0U, 0U, 1U, 0U };
         for ( uint8_t i = 0U; i < ROOM_COUNT; ++i )
         {
@@ -92,7 +92,7 @@ void houseInit( void )
             SET_BIT(house[i].status, BIT_OCCUPIED) ;
         }
         }
-}
+} 
 
 
 /* ==========================================================================
