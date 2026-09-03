@@ -443,4 +443,4 @@ your screen — that column is how it will be marked.
 ---
 
 *A house is an array. A room is a struct. A light switch is one bit.
-The drawing is done — now make it think.* 
+The drawing is done — now make it think.*  
